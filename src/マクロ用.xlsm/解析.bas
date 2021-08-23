@@ -39,7 +39,6 @@ For i = 0 To htdoc.all.Length - 1
         Cells(r, 1) = r - 1
         Cells(r, 2) = .tagName
         Cells(r, 3) = .innerText
-'        Cells(r, 4) = htdoc.getElementsByTagName("Tag")(r - 1).className
         r = r + 1
     End If
     End With
